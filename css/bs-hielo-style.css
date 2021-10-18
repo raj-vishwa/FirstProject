@@ -1,0 +1,336 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(175, 250, 250);
+}
+
+/* Navigation Starts */
+
+#my-navigation {
+  margin-top: 20px;
+  border: 0;
+  background: none;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+#my-navigation .navbar-brand,
+#my-navigation ul li a {
+  color: #fff;
+}
+
+#my-navigation .icon-bar {
+  background-color: #fff;
+}
+
+#my-navigation .navbar-toggle {
+  display: block;
+  border: 0;
+}
+
+#my-navigation .navbar-toggle:hover {
+  cursor: pointer;
+  background: none;
+}
+
+#my-navigation .navbar-header {
+  float: none;
+}
+
+#my-navigation .navbar-right {
+  float: left !important;
+}
+
+#my-navigation .icon-bar-left {
+  float: left;
+}
+
+#my-navigation .icon-right {
+  position: relative;
+  top: -3px;
+  padding-left: 10px;
+}
+
+/* Navigation Ends */
+
+/* Carousel Starts */
+
+.my-container {
+  padding: 0;
+  color: #fff;
+}
+
+.carousel .item {
+  background-image: url("../img/slide01.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.carousel .item-2 {
+  background-image: url("../img/slide02.jpg");
+}
+
+.carousel .item-3 {
+  background-image: url("../img/slide03.jpg");
+}
+
+.carousel .item-4 {
+  background-image: url("../img/slide04.jpg");
+}
+
+.carousel .item-5 {
+  background-image: url("../img/slide05.jpg");
+}
+
+/* Carousel Ends */
+
+/* Banner Starts */
+
+.banner {
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  z-index: 2;
+}
+
+.banner P {
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 4px;
+}
+
+.banner hr {
+  width: 40%;
+}
+
+.banner h1 {
+  font-size: 110px;
+  font-weight: 300;
+}
+
+/* Banner Ends */
+
+/* Two Section Starts */
+
+.two-section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.two-section .left,
+.two-section .right {
+  background-color: #fff;
+  text-align: center;
+  width: 95%;
+}
+
+.two-section img {
+  width: 100%;
+}
+
+.two-section h6 {
+  color: gray;
+  letter-spacing: 3px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+
+.two-section hr {
+  width: 50%;
+  margin: 0 auto;
+  color: gray;
+  height: 0.5px;
+}
+
+.two-section h3 {
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 8px;
+}
+
+.two-section p {
+  text-align: left;
+  padding: 25px 30px;
+  color: darkgray;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.two-section button {
+  width: 130px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  background: none;
+  border: 2px solid #dfdfdf;
+  margin-bottom: 50px;
+}
+
+.two-section .right {
+  margin-left: 5%;
+}
+
+/* Two Section Ends */
+
+/* Full Quote Starts */
+
+.full-quote {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.full-quote p {
+  margin-top: 90px;
+}
+
+.full-quote h2 {
+  margin-bottom: 70px;
+}
+
+.full-quote p,
+.four-images-section p {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  position: relative;
+  bottom: -5px;
+  color: darkgray;
+}
+
+.full-quote hr,
+.four-images-section hr {
+  width: 40%;
+  border: 0;
+  border-top: 1px solid silver;
+}
+
+.four-images-section hr {
+  width: 50%;
+}
+
+.full-quote h2,
+.four-images-section h2 {
+  font-size: 26px;
+  font-weight: 300;
+  position: relative;
+  top: -8px;
+}
+
+/* Full Quote Ends */
+
+/* Four Images Starts */
+
+.four-images-section {
+  padding-top: 90px;
+  padding-bottom: 25px;
+}
+
+.four-images-section h2 {
+  margin-bottom: 50px;
+}
+
+.four-images img {
+  width: 95%;
+  border: 10px solid #fff;
+  margin-bottom: 15%;
+}
+
+.four-images .left {
+  margin-left: 5%;
+}
+
+/* Four Images Ends */
+
+/* Footer Starts */
+
+.footer {
+  padding: 70px 0px;
+  background-color: #000;
+}
+
+.footer a {
+  font-size: 30px;
+  padding: 0px 7px;
+  color: rgb(175, 250, 250);
+}
+
+.footer p {
+  color: rgb(175, 250, 250);
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 30px;
+}
+
+/* Footer Ends */
+
+/* Media Query Starts */
+
+@media (max-width: 1120px) {
+  .banner {
+    width: 50%;
+    top: 35%;
+    left: 25%;
+  }
+
+  .banner P {
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+
+  .banner hr {
+    width: 50%;
+  }
+
+  .banner h1 {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 991px) {
+  .two-section .left,
+  .two-section .right {
+    width: 100%;
+  }
+
+  .two-section .right {
+    margin-left: 0;
+  }
+
+  .two-section .left {
+    margin-bottom: 10%;
+  }
+
+  .four-images-section {
+    padding-bottom: 15px;
+  }
+
+  .four-images img {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .four-images .left {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .my-collapse {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 1px solid #fff;
+  }
+
+  .full-quote hr {
+    width: 50%;
+  }
+}
+
+/* Media Query Ends */
